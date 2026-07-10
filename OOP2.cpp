@@ -19,7 +19,7 @@ void Find(string AccountNumber , string PinCode)
 
 void ReadClientInfo(clsBankClient& Client)
 {
-    cout << "Enter First Name: ";
+    cout << "Enter First Name please: ";
     Client.FirstName = clsInputValidate::ReadString();
 
     cout << "Enter Last Name: ";
